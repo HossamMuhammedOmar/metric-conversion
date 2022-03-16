@@ -1,11 +1,12 @@
 let meter = 3.2808399; // feet
 let liter = 0.264172052; // gallons
 let kilogram = 2.20462262; // pounds
-let num = 20;
+let num = 25;
 
 const length_el = document.getElementById("length");
 const volume_el = document.getElementById("volume");
 const mass_el = document.getElementById("mass");
+const number_el = (document.getElementById("number").textContent = num);
 
 // METERS TO FEET
 function metersToFeet(num) {
